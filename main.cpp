@@ -53,7 +53,7 @@ int main()
 **/
 vector <vector <char> > initializeMatrix(int rows, int columns, char value)
 {
-        vector<vector<char>> charMatrix;
+        vector<vector<char> > charMatrix;
         charMatrix.resize(rows);
         for(int matRows = 0; matRows < rows; matRows++){
                 for(int matCols = 0; matCols < columns; matCols++){
